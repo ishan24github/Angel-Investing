@@ -7,6 +7,7 @@ import Newsletter from "./Newsletter";
 import Cards from "./Cards";
 import FAQs from "./FAQs";
 import Features from "./Features";
+import Form from "../Startup/Form";
 
 const Show = () => {
   return (
@@ -17,6 +18,7 @@ const Show = () => {
       <Features/>
       <Cards />
       <FAQs/>
+      <Form/>
     </div>
   );
 };
