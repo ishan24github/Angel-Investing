@@ -14,7 +14,7 @@ const Show = () => {
     <div>
       <Navbar />
       <Showcase />
-      <Newsletter/>
+      {/* <Newsletter/> */}
       <Features/>
       <Cards />
       <FAQs/>

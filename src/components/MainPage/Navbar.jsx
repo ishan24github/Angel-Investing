@@ -26,7 +26,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">
+                <a class="nav-link text-light" href="/Angel-Investing/startup">
                   Startup
                 </a>
               </li>

@@ -1,10 +1,15 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+import { BrowserRouter ,Routes, Route, Link } from "react-router-dom";
 // import './App.css'
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Show from "./components/MainPage/Show";
+import ShowStartup from "./components/Startup/ShowStartup";
+import Process from "./components/Bidding/Process";
+import Grouping from "./components/Bidding/Grouping";
+import Bid from "./components/Bidding/Bid";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,8 +17,17 @@ function App() {
   return (
     <div>
       <Show />
+      <Bid/>
       <Footer />
     </div>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/Angel-Investing/startup" element={<Show />}>
+    //       <Route index element={<Show />} />
+    //       <Route path="/Angel-Investing/startup" element={<ShowStartup />} />
+    //     </Route>
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 
